@@ -27,10 +27,10 @@ var server = http.createServer(function(request, response){
     response.write(`
         <!DOCTYPE html>
         <head>
-        <link rel="stylesheet" href="/style">
+            <link rel="stylesheet" href="/style">
         </head>
         <body>
-        <h1>标题</h1>
+            <h1>标题</h1>
         </body>
     `)
     response.end()
